@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+   
+
+      <form >
+    <p id="errname"></p>
+    Enter name: <input type="text" id="name"> <br>
+    <p id="errnumber"></p>
+    Enter number: <input type="text" id="number"> <br>
+    <p id="errEmail"></p>
+    Enter email: <input type="email" id="email"><br>
+    <p id="errpass"></p>
+    Enter password: <input type="text" id="pass">
+    <p id="errcpass"></p>
+    Enter Cpass: <input type="text" id="cpass"> <br>
+
+    <input type="submit" value="Sign-up" onclick="return FormValidate()"> <br><br>
+
+    <p>Already have an account? <a href="login.html">Login</a></p>
+
+
+</form>
+<script src="signup.js"></script>
+</body>
+</html>

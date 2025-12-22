@@ -1,0 +1,78 @@
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, lightseagreen, white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+    background-color: lightseagreen;
+    width: 360px;
+    padding: 25px 30px;
+    border-radius: 8px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+form:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 18px;
+    color: #1f2937;
+}
+
+#Loginname,
+#Loginpass {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #cbd5e1;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+
+#Loginname:hover,
+#Loginpass:hover {
+    border-color: #94a3b8;
+}
+
+
+#Loginname:focus,
+#Loginpass:focus {
+    border-color: #3b82f6;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+}
+
+
+input[value="Login"] {
+    width: 100%;
+    padding: 11px;
+    background-color: #3b82f6;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+
+input[value="Login"]:hover {
+    background-color: #2563eb;
+    transform: translateY(-1px);
+}
+
+
+input[value="Login"]:active {
+    transform: translateY(0);
+}
